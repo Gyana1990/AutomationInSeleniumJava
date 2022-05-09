@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-28T18:54:44 IST" name="Default suite" finished-at="2022-04-28T18:54:47 IST" duration-ms="2954">
+    <groups>
+    </groups>
+    <test started-at="2022-04-28T18:54:44 IST" name="Default test" finished-at="2022-04-28T18:54:47 IST" duration-ms="2954">
+      <class name="com.taxilla.apps.commonutil.StatusReporting">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.taxilla.apps.commonutil.StatusReporting@5f9b2141]" started-at="2022-04-28T18:54:44 IST" name="init" finished-at="2022-04-28T18:54:44 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="StatusReporting()[pri:0, instance:com.taxilla.apps.commonutil.StatusReporting@5f9b2141]" started-at="2022-04-28T18:54:44 IST" name="StatusReporting" finished-at="2022-04-28T18:54:47 IST" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusReporting -->
+      </class> <!-- com.taxilla.apps.commonutil.StatusReporting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.taxilla.apps.testscripts.TC_000_Cancellation_OutwardTransactionV3"/>   
+      <class name="com.taxilla.apps.testscripts.TC_001_APIandEmailDetailMaster"/>
+      <class name="com.taxilla.apps.testscripts.TC_002_OutwardTransactionV3AssetInLevel1"/>
+      <class name="com.taxilla.apps.testscripts.TC_003_RegisteredInvoicesForReconLevel2"/>
+      <class name="com.taxilla.apps.testscripts.TC_004_PostGSTR1V1_2Level2"/>
+      <class name="com.taxilla.apps.testscripts.TC_005_PostGSTR1V1_2HtmlReportVerification"/>
+      <class name="com.taxilla.apps.commonutil.StatusReporting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

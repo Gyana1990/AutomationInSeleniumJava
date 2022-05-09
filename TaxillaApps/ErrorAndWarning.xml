@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="Test">
+    <classes>
+       <class name="com.taxilla.apps.testscripts.TC_000_Cancellation_OutwardTransactionV3"/>
+      <class name="com.taxilla.apps.testscripts.TC_006_ValidationCheckForError1_OutwardTransactionV3App"/>   
+      <class name="com.taxilla.apps.testscripts.TC_007_ValidationCheckForError2_OutwardTransactionV3App2"/>
+      <class name="com.taxilla.apps.testscripts.TC_008_ValidationCheckForError3_OutwardTransactionV3App3"/>
+      <class name="com.taxilla.apps.testscripts.TC_009_ValidationCheckForError4_OutwardTransactionV3App4"/>
+      <class name="com.taxilla.apps.testscripts.TC_010_ValidationCheckForWarning1_OutwardTransactionV3App5"/>
+      <class name="com.taxilla.apps.commonutil.StatusReporting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
